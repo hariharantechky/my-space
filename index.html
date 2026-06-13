@@ -160,7 +160,7 @@ footer{position:relative;z-index:1;padding:2rem clamp(2rem,8vw,8rem);border-top:
   </div>
   <div class="floating-cards">
     <div class="fcard fc-yellow"><div class="fcard-num">8.52</div><div class="fcard-label">B.Tech CGPA</div></div>
-    <div class="fcard fc-coral"><div class="fcard-num">1+</div><div class="fcard-label">Yrs Experience</div></div>
+    <div class="fcard fc-coral"><div class="fcard-num">2+</div><div class="fcard-label">Yrs Experience</div></div>
     <div class="fcard fc-violet"><div class="fcard-num">3</div><div class="fcard-label">Internships</div></div>
     <div class="fcard fc-ice"><div class="fcard-num">4+</div><div class="fcard-label">Certifications</div></div>
   </div>
@@ -171,7 +171,7 @@ footer{position:relative;z-index:1;padding:2rem clamp(2rem,8vw,8rem);border-top:
   <div class="about-grid">
     <div class="about-text-block reveal">
       <p>I'm a proactive engineer with a deep interest in <strong>Technical Support, Linux Administration, and Networking</strong>. Currently pursuing CCNA certification to level up my infrastructure skills.</p>
-      <p>My background spans cybersecurity internships, full-stack exposure, and an active role as an <strong>Associate Trainer</strong> — conducting technical workshops, managing systems, and troubleshooting real-world issues daily.</p>
+      <p>My background spans cybersecurity internships, full-stack exposure, and an active role as an <strong>Senior Trainer</strong> — conducting technical workshops, managing systems, and troubleshooting real-world issues daily.</p>
       <p>I thrive under pressure — whether it's tracing a network fault, configuring a Linux server, or resolving user issues on the fly. Clear thinking + clear communication = my style.</p>
     </div>
     <div class="about-info-grid reveal">
@@ -201,7 +201,7 @@ footer{position:relative;z-index:1;padding:2rem clamp(2rem,8vw,8rem);border-top:
     <div class="exp-card current">
       <div class="exp-date">JUN 2024 – PRESENT</div>
       <div class="exp-co">New Propeller Technologies</div>
-      <div class="exp-role">Associate Trainer</div>
+      <div class="exp-role">Senior Trainer</div>
       <div class="exp-desc">Conducting technical workshops on networking & Linux. Managing trainee progress and resolving real-world system issues in a fast-paced training environment.</div>
     </div>
     <div class="exp-card">
@@ -306,7 +306,7 @@ document.querySelectorAll('.fcard,.exp-card,.proj-card,.info-card,.cert-card').f
 const obs=new IntersectionObserver(e=>{e.forEach(el=>{if(el.isIntersecting)el.target.classList.add('visible')})},{threshold:.1});
 document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
 
-const roles=['// Technical Support Engineer','// Network Engineer','// Linux System Admin','// Associate Trainer @ New Propeller Technologies'];
+const roles=['// Technical Support Engineer','// Network Engineer','// Linux System Admin','// Senior Trainer @ New Propeller Technologies'];
 let ri=0,ci=0,del=false;
 const roleEl=document.getElementById('roleText');
 function type(){
